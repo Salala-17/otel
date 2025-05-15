@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lüks Otel - Xoş gəlmisiniz</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+ 
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">Lüks<span>Otel</span></a>
+                <ul class="nav-links">
+                    <li><a href="#home">Əsas</a></li>
+                    <li><a href="#rooms">Otaqlar</a></li>
+                    <li><a href="#services">Xidmətlər</a></li>
+                    <li><a href="#about">Haqqımızda</a></li>
+                    <li><a href="#contact">Əlaqə</a></li>
+                    <li><a href="#booking" class="btn">Rezervasiya</a></li>
+                </ul>
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+ 
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Xoş gəlmisiniz Lüks Otelə</h1>
+                <p>Rahatlıq və Lüksün Mükəmməl Ünvanı</p>
+                <a href="#booking" class="btn">İndi Rezervasiya Edin</a>
+            </div>
+        </div>
+    </section>
+
+ 
+    <section class="rooms" id="rooms">
+        <div class="container">
+            <h2 class="section-title">Otaq Seçimləri</h2>
+            <div class="rooms-grid">
+                <div class="room-card">
+                    <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32" alt="Standart Otaq">
+                    <div class="room-info">
+                        <h3>Standart Otaq</h3>
+                        <p class="price">120 AZN<span>/gecə</span></p>
+                        <ul>
+                            <li><i class="fas fa-wifi"></i> Pulsuz Wi-Fi</li>
+                            <li><i class="fas fa-tv"></i> Smart TV</li>
+                            <li><i class="fas fa-coffee"></i> Səhər yeməyi</li>
+                        </ul>
+                        <a href="#booking" class="btn">Rezervasiya</a>
+                    </div>
+                </div>
+                
+                <div class="room-card">
+                    <img src="data:image/jpeg;base64,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" alt="Delüks Otaq">
+                    <div class="room-info">
+                        <h3>Delüks Otaq</h3>
+                        <p class="price">200 AZN<span>/gecə</span></p>
+                        <ul>
+                            <li><i class="fas fa-wifi"></i> Pulsuz Wi-Fi</li>
+                            <li><i class="fas fa-tv"></i> Smart TV</li>
+                            <li><i class="fas fa-utensils"></i> Səhər yeməyi</li>
+                            <li><i class="fas fa-swimming-pool"></i> Hovuz girişi</li>
+                        </ul>
+                        <a href="#booking" class="btn">Rezervasiya</a>
+                    </div>
+                </div>
+                
+                <div class="room-card">
+                    <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b" alt="Prezident Lüks">
+                    <div class="room-info">
+                        <h3>Prezident Lüks</h3>
+                        <p class="price">350 AZN<span>/gecə</span></p>
+                        <ul>
+                            <li><i class="fas fa-wifi"></i> Pulsuz Wi-Fi</li>
+                            <li><i class="fas fa-tv"></i> Smart TV</li>
+                            <li><i class="fas fa-utensils"></i> Səhər yeməyi</li>
+                            <li><i class="fas fa-swimming-pool"></i> Hovuz girişi</li>
+                            <li><i class="fas fa-spa"></i> Spa xidməti</li>
+                        </ul>
+                        <a href="#booking" class="btn">Rezervasiya</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Xidmətlər Bölməsi -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Xidmətlərimiz</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Restoran</h3>
+                    <p>Şəfqətli mətbəə xidmətimizlə yüksək keyfiyyətli yeməklər</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-swimming-pool"></i>
+                    <h3>Hovuz</h3>
+                    <p>İçəri və açıq hovuzlarımız ilə istirahətin dadını çıxarın</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-spa"></i>
+                    <h3>Spa</h3>
+                    <p>Peşəkarlar tərəfindən təqdim olunan spa xidmətləri</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-dumbbell"></i>
+                    <h3>Fitness</h3>
+                    <p>Müasir fitness avadanlıqları ilə idman imkanı</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rezervasiya Bölməsi -->
+    <section class="booking" id="booking">
+        <div class="container">
+            <h2 class="section-title">Otaq Rezervasiyası</h2>
+            <form id="booking-form">
+                <div class="form-group">
+                    <label for="name">Ad Soyad</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-poçt</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Telefon</label>
+                    <input type="tel" id="phone" required>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="check-in">Giriş Tarixi</label>
+                        <input type="date" id="check-in" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="check-out">Çıxış Tarixi</label>
+                        <input type="date" id="check-out" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="room-type">Otaq Növü</label>
+                    <select id="room-type" required>
+                        <option value="">Seçin...</option>
+                        <option value="standart">Standart Otaq</option>
+                        <option value="deluxe">Delüks Otaq</option>
+                        <option value="presidential">Prezident Lüks</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="guests">Qonaq Sayı</label>
+                    <input type="number" id="guests" min="1" max="4" required>
+                </div>
+                <button type="submit" class="btn">Rezervasiya Et</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Əlaqə Bölməsi -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Əlaqə</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Bizimlə Əlaqə</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Nizami küçəsi 203, Bakı, Azərbaycan</p>
+                    <p><i class="fas fa-phone"></i> +994 12 345 67 89</p>
+                    <p><i class="fas fa-envelope"></i> info@luksotel.az</p>
+                    
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="contact-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.428490145603!2d49.85175631535404!3d40.37719487936985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d079efb5163%3A0xc20aa51a5f0b5e01!2sCode%20Academy!5e0!3m2!1sen!2saz!4v1620000000000!5m2!1sen!2saz" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>LüksOtel</h3>
+                    <p>Rahatlıq və Lüksün Mükəmməl Ünvanı</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Sürətli Keçidlər</h3>
+                    <ul>
+                        <li><a href="#home">Əsas</a></li>
+                        <li><a href="#rooms">Otaqlar</a></li>
+                        <li><a href="#services">Xidmətlər</a></li>
+                        <li><a href="#contact">Əlaqə</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Xidmətlər</h3>
+                    <ul>
+                        <li><a href="#">Restoran</a></li>
+                        <li><a href="#">Spa</a></li>
+                        <li><a href="#">Fitness</a></li>
+                        <li><a href="#">Hovuz</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Abunə ol</h3>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="E-poçtunuz">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 LüksOtel. Bütün hüquqlar qorunur.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
